@@ -6,5 +6,5 @@ Docker image for Skelbiu.lt renew ads script bundled with Firefox and Geckodrive
 ```
 docker build -t skelbiu_renew .
 
-sudo docker run --name <name> -d -e APP_USERNAME=<username> -e APP_PASSWORD=<password> skelbiu_renew sleep infinite
+sudo docker run --name <name> -d -e APP_USERNAME=<username> -e APP_PASSWORD=<password> skelbiu_renew
 ```
